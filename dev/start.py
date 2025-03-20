@@ -1,3 +1,5 @@
+from gtts import gTTS
+import os
 from telebot import types
 from master_func import (
     create_new_keyboard_yes_no, remove_keyboard, get_greeting, get_yes_response, get_no_response,
@@ -260,3 +262,39 @@ def answer_from_user_3(bot):
                             text=text,
                             reply_markup=markup
                         )
+
+def audio_on_off(bot):
+    @bot.message_handler(commands=['audio_activate'])
+    def audio_on(message):
+        user_id = message.from_user.id
+        user_states[user_id] = True
+        bot.reply_to(message, 'Режим преобразования текста активирован')
+
+    @bot.message_handler(commands=['audio_deactivate'])
+    def audio_off(message):
+        user_id = message.from_user.id
+        user_states[user_id] = False
+        bot.reply_to(message, 'Режим преобразования текста деактивирован')
+
+    @bot.message_handler(func=lambda message: True)
+    def message_audio(message):
+        user_id = message.from_user.id
+        if user_states[user_id] == True:
+            try:
+                user_text = message.text
+
+                tts = gTTS(text=user_text, lang='ru')
+                audio_file = "audio.mp3"
+                tts.save(audio_file)
+
+                with open(audio_file, 'rb') as audio:
+                    bot.send_voice(message.chat.id, audio)
+
+                os.remove(audio_file)
+            except Exception as e:
+                bot.reply_to(message, f"Произошла ошибка: {e}")
+        else:
+            bot.reply_to(message, "Режим преобразования текста в голос не активирован. Используйте /start_tts, чтобы активировать его.")
+
+
+
