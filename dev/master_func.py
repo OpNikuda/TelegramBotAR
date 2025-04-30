@@ -1,27 +1,33 @@
 from telebot import types
+from dict import ridles
 import random
 
-# Список загадок и ответов
-RIDDLES = [
-    {"question": "Я желтый, и я фрукт. Обезьяны любят меня. Что я такое?", "answer": "banana"},
-    {"question": "Я красный, и я фрукт. Я расту на дереве. Что я такое?", "answer": "apple"},
-    {"question": "Я белый, и я холодный. Ты можешь пить меня. Что я такое?", "answer": "milk"},
-    {"question": "Я маленький, и я зеленый. Я живу в воде. Что я такое?", "answer": "frog"},
-    {"question": "Я большой, и я серый. У меня длинный нос. Что я такое?", "answer": "elephant"},
-    {"question": "Я круглый, и я оранжевый. Я расту в земле. Что я такое?", "answer": "carrot"},
-    {"question": "Я маленький, и я желтый. Я могу летать. Что я такое?", "answer": "bee"},
-    {"question": "Я большой, и я коричневый. Я живу в лесу. Что я такое?", "answer": "bear"},
-    {"question": "Я маленький, и я черный. Я живу ночью. Что я такое?", "answer": "bat"},
-    {"question": "Я большой, и я синий. Я живу в океане. Что я такое?", "answer": "whale"}
-]
-
-def get_random_riddle():
+def get_random_riddle_beginner():
     """
-    Возвращает случайную загадку из списка.
+    Возвращает случайную загадку из списка (beginner).
     Returns:
         dict: Словарь с загадкой и ответом.
     """
-    return random.choice(RIDDLES)
+    beginner, _, _ = ridles()  # Извлекаем только beginner
+    return random.choice(beginner)
+
+def get_random_riddle_intermediate():
+    """
+    Возвращает случайную загадку из списка (intermediate).
+    Returns:
+        dict: Словарь с загадкой и ответом.
+    """
+    _, _, intermediate = ridles()  # Извлекаем только intermediate
+    return random.choice(intermediate)
+
+def get_random_riddle_advanced():
+    """
+    Возвращает случайную загадку из списка (advanced).
+    Returns:
+        dict: Словарь с загадкой и ответом.
+    """
+    _, advanced, _ = ridles()  # Извлекаем только advanced
+    return random.choice(advanced)
 
 def create_riddle_markup():
     """
@@ -68,12 +74,14 @@ def create_new_keyboard_yes():
             - Puzzles
             - Explore Vocabulary
             - Practice Grammar
+            - Back
     """
     markup = types.InlineKeyboardMarkup()
     btn1 = types.InlineKeyboardButton("Puzzles", callback_data='puzzle')
     btn2 = types.InlineKeyboardButton("Explore Vocabulary", callback_data='explore_vocabulary')
     btn3 = types.InlineKeyboardButton("Practice Grammar", callback_data='practice_grammar')
-    markup.add(btn1, btn2, btn3)
+    btn4 = types.InlineKeyboardButton("Back", callback_data='back')
+    markup.add(btn1, btn2, btn3, btn4)
     return markup
 
 def create_learn_response():
@@ -91,9 +99,10 @@ def create_learn_response():
     )
     markup = types.InlineKeyboardMarkup()
     btn1 = types.InlineKeyboardButton('Beginner', callback_data='beginner')
-    btn2 = types.InlineKeyboardButton('Intermediate', callback_data='intermediate')
-    btn3 = types.InlineKeyboardButton('Advanced', callback_data='advanced')
-    markup.add(btn1, btn2, btn3)
+    btn2 = types.InlineKeyboardButton('Advanced', callback_data='advanced')
+    btn3 = types.InlineKeyboardButton('Intermediate', callback_data='intermediate')
+    btn4 = types.InlineKeyboardButton('Back', callback_data='back')
+    markup.add(btn1, btn2, btn3, btn4)
     return markup, text
 
 def beginner_learning():
@@ -118,6 +127,26 @@ def beginner_learning():
     markup.add(btn1, btn2)
     return text, markup
 
+def advanced_learning():
+    text = (
+        f'Excellent choice! 🌟 You’re about to embark on a journey of intricate riddles that will not only challenge your intellect but also enrich your vocabulary. 🧠✨'
+    )
+    markup = types.InlineKeyboardMarkup()
+    btn1 = types.InlineKeyboardButton('Go', callback_data='go')
+    btn2 = types.InlineKeyboardButton('Back', callback_data='back')
+    markup.add(btn1, btn2)
+    return text, markup
+
+def intermediate_learning():
+    text = (
+        f'Great choice! 🎉 Let’s dive into some intermediate riddles that will challenge your mind and help you learn new words!'
+    )
+    markup = types.InlineKeyboardMarkup()
+    btn1 = types.InlineKeyboardButton('Go', callback_data='go')
+    btn2 = types.InlineKeyboardButton('Back', callback_data='back')
+    markup.add(btn1, btn2)
+    return text, markup
+
 def get_vocabulary_response():
     """
     Создает Inline-клавиатуру с кнопками 'Bebra' и 'Brb'.
@@ -130,7 +159,8 @@ def get_vocabulary_response():
     markup = types.InlineKeyboardMarkup()
     btn1 = types.InlineKeyboardButton('Bebra', callback_data='bebra')
     btn2 = types.InlineKeyboardButton('Brb', callback_data='brb')
-    markup.add(btn1, btn2)
+    btn3 = types.InlineKeyboardButton('Back', callback_data='back')
+    markup.add(btn1, btn2, btn3)
     return markup, text
 
 def get_grammar_response():
@@ -145,7 +175,8 @@ def get_grammar_response():
     markup = types.InlineKeyboardMarkup()
     btn1 = types.InlineKeyboardButton('Bebra', callback_data='bebra')
     btn2 = types.InlineKeyboardButton('Brb', callback_data='brb')
-    markup.add(btn1, btn2)
+    btn3 = types.InlineKeyboardButton('Back', callback_data='back')
+    markup.add(btn1, btn2, btn3)
     return markup, text
 
 def remove_keyboard():
