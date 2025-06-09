@@ -1,33 +1,69 @@
 from telebot import types
-from dict import ridles
 import random
+import json
+from pathlib import Path
+
+
+def get_json_path():
+    """Возвращает путь к файлу JSON с загадками."""
+    current_file = Path(__file__)
+    project_root = current_file.parent.parent
+    return project_root / 'data' / 'dict.json'
+
+def load_all_riddles():
+    """Загружает все загадки из файла JSON."""
+    json_path = get_json_path()
+    with open(json_path, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+def get_beginner_riddles():
+    """Возвращает загадки уровня beginner."""
+    riddles = load_all_riddles()
+    return [r for r in riddles if r.get('level') == 'Beginner']
+
+def get_intermediate_riddles():
+    """Возвращает загадки уровня intermediate."""
+    riddles = load_all_riddles()
+    return [r for r in riddles if r.get('level') == 'Intermediate']
+
+def get_advanced_riddles():
+    """Возвращает загадки уровня advanced."""
+    riddles = load_all_riddles()
+    return [r for r in riddles if r.get('level') == 'Advanced']
+
 
 def get_random_riddle_beginner():
     """
-    Возвращает случайную загадку из списка (beginner).
+    Возвращает случайную загадку уровня beginner.
     Returns:
-        dict: Словарь с загадкой и ответом.
+        tuple: Кортеж (вопрос, ответ)
     """
-    beginner, _, _ = ridles()  # Извлекаем только beginner
-    return random.choice(beginner)
+    riddles = get_beginner_riddles()
+    riddle = random.choice(riddles)
+    return riddle['text']['question'], riddle['text']['answer']
+
 
 def get_random_riddle_intermediate():
     """
-    Возвращает случайную загадку из списка (intermediate).
+    Возвращает случайную загадку уровня intermediate.
     Returns:
-        dict: Словарь с загадкой и ответом.
+        tuple: Кортеж (вопрос, ответ)
     """
-    _, _, intermediate = ridles()  # Извлекаем только intermediate
-    return random.choice(intermediate)
+    riddles = get_intermediate_riddles()
+    riddle = random.choice(riddles)
+    return riddle['text']['question'], riddle['text']['answer']
+
 
 def get_random_riddle_advanced():
     """
-    Возвращает случайную загадку из списка (advanced).
+    Возвращает случайную загадку уровня advanced.
     Returns:
-        dict: Словарь с загадкой и ответом.
+        tuple: Кортеж (вопрос, ответ)
     """
-    _, advanced, _ = ridles()  # Извлекаем только advanced
-    return random.choice(advanced)
+    riddles = get_advanced_riddles()
+    riddle = random.choice(riddles)
+    return riddle['text']['question'], riddle['text']['answer']
+
 
 def create_riddle_markup():
     """

@@ -88,9 +88,9 @@ def answer_from_user_2(bot):
             )
             user_states[user_id].append("practice_grammar")  # Добавляем текущее состояние в стек
         elif call.data == 'back':
-            if user_states[user_id]:  # Если есть предыдущие состояния
+            if user_states.get(user_id):  # Если есть предыдущие состояния
                 user_states[user_id].pop()  # Удаляем текущее состояние
-                if user_states[user_id]:  # Если остались предыдущие состояния
+                if user_states.get(user_id):  # Если остались предыдущие состояния
                     previous_state = user_states[user_id][-1]  # Берем последнее состояние
                     if previous_state == "start":
                         greeting = get_greeting()
@@ -141,19 +141,42 @@ def answer_from_user_2(bot):
         level = user_levels.get(user_id, 'beginner')  # Получаем уровень сложности пользователя
 
         if level == 'beginner':
-            riddle = get_random_riddle_beginner()
+            question, answer = get_random_riddle_beginner()
         elif level == 'intermediate':
-            riddle = get_random_riddle_intermediate()
+            question, answer = get_random_riddle_intermediate()
         elif level == 'advanced':
-            riddle = get_random_riddle_advanced()
+            question, answer = get_random_riddle_advanced()
 
+        markup = create_riddle_markup()
         bot.edit_message_text(
             chat_id=call.message.chat.id,
             message_id=call.message.message_id,
-            text=riddle["question"]
+            text=question,
+            reply_markup=markup
         )
-        bot.register_next_step_handler(call.message, process_riddle_answer, riddle["answer"], bot)
-        user_states[user_id].append("riddle")  # Добавляем текущее состояние в стек
+        # Сохраняем правильный ответ в user_states для последующей проверки
+        user_states[user_id].append(("riddle", answer))
+        user_states[user_id].append("riddle_question")  # Добавляем текущее состояние в стек
+
+    @bot.callback_query_handler(func=lambda call: call.data == 'answer_riddle')
+    def handle_answer_riddle(call):
+        user_id = call.from_user.id
+        # Получаем последний сохраненный ответ
+        if user_states.get(user_id):
+            for state in reversed(user_states[user_id]):
+                if isinstance(state, tuple) and state[0] == "riddle":
+                    correct_answer = state[1]
+                    break
+            else:
+                correct_answer = None
+        else:
+            correct_answer = None
+
+        if correct_answer:
+            bot.send_message(call.message.chat.id, "Введите ваш ответ:")
+            bot.register_next_step_handler(call.message, lambda m: process_riddle_answer(m, correct_answer, bot))
+        else:
+            bot.send_message(call.message.chat.id, "Произошла ошибка. Попробуйте еще раз.")
 
 def process_riddle_answer(message, correct_answer, bot):
     """
@@ -198,9 +221,9 @@ def level_learning_p2(bot):
             )
             user_states[user_id].append("intermediate")  # Добавляем текущее состояние в стек
         elif call.data == 'back':
-            if user_states[user_id]:  # Если есть предыдущие состояния
+            if user_states.get(user_id):  # Если есть предыдущие состояния
                 user_states[user_id].pop()  # Удаляем текущее состояние
-                if user_states[user_id]:  # Если остались предыдущие состояния
+                if user_states.get(user_id):  # Если остались предыдущие состояния
                     previous_state = user_states[user_id][-1]  # Берем последнее состояние
                     if previous_state == "puzzle":
                         markup, text = create_learn_response()
@@ -242,9 +265,9 @@ def answer_from_user_3(bot):
             )
             user_states[user_id].append("brb")  # Добавляем текущее состояние в стек
         elif call.data == 'back':
-            if user_states[user_id]:  # Если есть предыдущие состояния
+            if user_states.get(user_id):  # Если есть предыдущие состояния
                 user_states[user_id].pop()  # Удаляем текущее состояние
-                if user_states[user_id]:  # Если остались предыдущие состояния
+                if user_states.get(user_id):  # Если остались предыдущие состояния
                     previous_state = user_states[user_id][-1]  # Берем последнее состояние
                     if previous_state == "explore_vocabulary":
                         markup, text = get_vocabulary_response()
@@ -279,7 +302,7 @@ def audio_on_off(bot):
     @bot.message_handler(func=lambda message: True)
     def message_audio(message):
         user_id = message.from_user.id
-        if user_states[user_id] == True:
+        if user_states.get(user_id) == True:
             try:
                 user_text = message.text
 
@@ -294,7 +317,4 @@ def audio_on_off(bot):
             except Exception as e:
                 bot.reply_to(message, f"Произошла ошибка: {e}")
         else:
-            bot.reply_to(message, "Режим преобразования текста в голос не активирован. Используйте /start_tts, чтобы активировать его.")
-
-
-
+            bot.reply_to(message, "Режим преобразования текста в голос не активирован. Используйте /audio_activate, чтобы активировать его.")
