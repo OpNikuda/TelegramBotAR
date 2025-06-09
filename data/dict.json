@@ -1,0 +1,1178 @@
+[
+    {
+        "id": "0001",
+        "level": "Beginner",
+        "text": {
+            "question": "Я желтый, и я фрукт. Обезьяны любят меня. Что я такое?",
+            "answer": "banana"
+        }
+    },
+    {
+        "id": "0002",
+        "level": "Beginner",
+        "text": {
+            "question": "Я красный, и я фрукт. Я расту на дереве. Что я такое?",
+            "answer": "apple"
+        }
+    },
+    {
+        "id": "0003",
+        "level": "Beginner",
+        "text": {
+            "question": "Я белый, и я холодный. Ты можешь пить меня. Что я такое?",
+            "answer": "milk"
+        }
+    },
+    {
+        "id": "0004",
+        "level": "Beginner",
+        "text": {
+            "question": "Я маленький, и я зеленый. Я живу в воде. Что я такое?",
+            "answer": "frog"
+        }
+    },
+    {
+        "id": "0005",
+        "level": "Beginner",
+        "text": {
+            "question": "Я большой, и я серый. У меня длинный нос. Что я такое?",
+            "answer": "elephant"
+        }
+    },
+    {
+        "id": "0006",
+        "level": "Beginner",
+        "text": {
+            "question": "Я kруглый, и я оранжевый. Я расту в земле. Что я такое?",
+            "answer": "carrot"
+        }
+    },
+    {
+        "id": "0007",
+        "level": "Beginner",
+        "text": {
+            "question": "Я маленький, и я желтый. Я могу летать. Что я такое?",
+            "answer": "bee"
+        }
+    },
+    {
+        "id": "0008",
+        "level": "Beginner",
+        "text": {
+            "question": "Я большой, и я коричневый. Я живу в лесу. Что я такое?",
+            "answer": "bear"
+        }
+    },
+    {
+        "id": "0009",
+        "level": "Beginner",
+        "text": {
+            "question": "Я маленький, и я черный. Я живу ночью. Что я такое?",
+            "answer": "bat"
+        }
+    },
+    {
+        "id": "0010",
+        "level": "Beginner",
+        "text": {
+            "question": "Я большой, и я синий. Я живу в океане. Что я такое?",
+            "answer": "whale"
+        }
+    },
+    {
+        "id": "0011",
+        "level": "Intermediate",
+        "text": {
+            "question": "The more you take, the more you leave behind. What am I?",
+            "answer": "footsteps"
+        }
+    },
+    {
+        "id": "0012",
+        "level": "Intermediate",
+        "text": {
+            "question": "I’m not alive, but I can grow. I don’t have lungs, but I need air. What am I?",
+            "answer": "fire"
+        }
+    },
+    {
+        "id": "0013",
+        "level": "Intermediate",
+        "text": {
+            "question": "I have keys but no locks. I have space but no room. What am I?",
+            "answer": "keyboard"
+        }
+    },
+    {
+        "id": "0014",
+        "level": "Intermediate",
+        "text": {
+            "question": "I’m tall when I’m young, and I’m short when I’m old. What am I?",
+            "answer": "candle"
+        }
+    },
+    {
+        "id": "0015",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has to be broken before you can use it?",
+            "answer": "egg"
+        }
+    },
+    {
+        "id": "0016",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a heart that doesn’t beat?",
+            "answer": "artichoke"
+        }
+    },
+    {
+        "id": "0017",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has hands but can’t clap?",
+            "answer": "clock"
+        }
+    },
+    {
+        "id": "0018",
+        "level": "Intermediate",
+        "text": {
+            "question": "I’m full of holes but still hold water. What am I?",
+            "answer": "sponge"
+        }
+    },
+    {
+        "id": "0019",
+        "level": "Intermediate",
+        "text": {
+            "question": "I can fly without wings. I can cry without eyes. What am I?",
+            "answer": "cloud"
+        }
+    },
+    {
+        "id": "0020",
+        "level": "Intermediate",
+        "text": {
+            "question": "I’m always in front of you but can’t be seen. What am I?",
+            "answer": "future"
+        }
+    },
+    {
+        "id": "0021",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a face but no head?",
+            "answer": "clock"
+        }
+    },
+    {
+        "id": "0022",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a neck but no head?",
+            "answer": "bottle"
+        }
+    },
+    {
+        "id": "0023",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has to be broken before you can eat it?",
+            "answer": "egg"
+        }
+    },
+    {
+        "id": "0024",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a thumb and four fingers but isn’t alive?",
+            "answer": "glove"
+        }
+    },
+    {
+        "id": "0025",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a ring but no finger?",
+            "answer": "phone"
+        }
+    },
+    {
+        "id": "0026",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a bed but never sleeps?",
+            "answer": "river"
+        }
+    },
+    {
+        "id": "0027",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a head and a tail but no body?",
+            "answer": "coin"
+        }
+    },
+    {
+        "id": "0028",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a bark but no bite?",
+            "answer": "tree"
+        }
+    },
+    {
+        "id": "0029",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a tongue but can’t talk?",
+            "answer": "shoe"
+        }
+    },
+    {
+        "id": "0030",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a face but can’t smile?",
+            "answer": "mountain"
+        }
+    },
+    {
+        "id": "0031",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a bottom at the top?",
+            "answer": "leg"
+        }
+    },
+    {
+        "id": "0032",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a mouth but can’t eat?",
+            "answer": "river"
+        }
+    },
+    {
+        "id": "0033",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a key but can’t open locks?",
+            "answer": "piano"
+        }
+    },
+    {
+        "id": "0034",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a bed but never lies down?",
+            "answer": "truck"
+        }
+    },
+    {
+        "id": "0035",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a foot but no legs?",
+            "answer": "snail"
+        }
+    },
+    {
+        "id": "0036",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a head but never weeps?",
+            "answer": "nail"
+        }
+    },
+    {
+        "id": "0037",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a tail but no body?",
+            "answer": "comet"
+        }
+    },
+    {
+        "id": "0038",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a spine but no bones?",
+            "answer": "book"
+        }
+    },
+    {
+        "id": "0039",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a face but no eyes?",
+            "answer": "clock"
+        }
+    },
+    {
+        "id": "0040",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a heart but no organs?",
+            "answer": "artichoke"
+        }
+    },
+    {
+        "id": "0041",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a bank but no money?",
+            "answer": "river"
+        }
+    },
+    {
+        "id": "0042",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a trunk but no limbs?",
+            "answer": "tree"
+        }
+    },
+    {
+        "id": "0043",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a wave but no water?",
+            "answer": "flag"
+        }
+    },
+    {
+        "id": "0044",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a crown but no head?",
+            "answer": "tooth"
+        }
+    },
+    {
+        "id": "0045",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a needle but can’t sew?",
+            "answer": "compass"
+        }
+    },
+    {
+        "id": "0046",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a shell but isn’t a nut?",
+            "answer": "turtle"
+        }
+    },
+    {
+        "id": "0047",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a page but no words?",
+            "answer": "book"
+        }
+    },
+    {
+        "id": "0048",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a frame but no pictures?",
+            "answer": "bicycle"
+        }
+    },
+    {
+        "id": "0049",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a button but no shirt?",
+            "answer": "doorbell"
+        }
+    },
+    {
+        "id": "0050",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a screen but no movies?",
+            "answer": "window"
+        }
+    },
+    {
+        "id": "0051",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a handle but no door?",
+            "answer": "cup"
+        }
+    },
+    {
+        "id": "0052",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a blade but can’t cut?",
+            "answer": "fan"
+        }
+    },
+    {
+        "id": "0053",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a thread but no needle?",
+            "answer": "spider"
+        }
+    },
+    {
+        "id": "0054",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a root but no leaves?",
+            "answer": "mountain"
+        }
+    },
+    {
+        "id": "0055",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a bridge but no water?",
+            "answer": "nose"
+        }
+    },
+    {
+        "id": "0056",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a stage but no actors?",
+            "answer": "microscope"
+        }
+    },
+    {
+        "id": "0057",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a lock but no key?",
+            "answer": "hair"
+        }
+    },
+    {
+        "id": "0058",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a belt but no pants?",
+            "answer": "car"
+        }
+    },
+    {
+        "id": "0059",
+        "level": "Intermediate",
+        "text": {
+            "question": "What has a horn but doesn’t honk?",
+            "answer": "rhino"
+        }
+    },
+    {
+        "id": "0060",
+        "level": "Advanced",
+        "text": {
+            "question": "I am not alive, but I can die. What am I?",
+            "answer": "battery"
+        }
+    },
+    {
+        "id": "0061",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always hungry, I must always be fed. The finger I touch will soon turn red. What am I?",
+            "answer": "fire"
+        }
+    },
+    {
+        "id": "0062",
+        "level": "Advanced",
+        "text": {
+            "question": "I have cities, but no houses. I have forests, but no trees. I have rivers, but no water. What am I?",
+            "answer": "map"
+        }
+    },
+    {
+        "id": "0063",
+        "level": "Advanced",
+        "text": {
+            "question": "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
+            "answer": "pencil"
+        }
+    },
+    {
+        "id": "0064",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always in front of you but can never be seen. What am I?",
+            "answer": "future"
+        }
+    },
+    {
+        "id": "0065",
+        "level": "Advanced",
+        "text": {
+            "question": "I am not alive, but I can grow. I don’t have lungs, but I need air. What am I?",
+            "answer": "flame"
+        }
+    },
+    {
+        "id": "0066",
+        "level": "Advanced",
+        "text": {
+            "question": "I am full of holes but still hold water. What am I?",
+            "answer": "sponge"
+        }
+    },
+    {
+        "id": "0067",
+        "level": "Advanced",
+        "text": {
+            "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
+            "answer": "echo"
+        }
+    },
+    {
+        "id": "0068",
+        "level": "Advanced",
+        "text": {
+            "question": "I have keys but open no locks. I have space but no room. You can enter, but you can’t go outside. What am I?",
+            "answer": "keyboard"
+        }
+    },
+    {
+        "id": "0069",
+        "level": "Advanced",
+        "text": {
+            "question": "I am light as a feather, yet no one can hold me for long. What am I?",
+            "answer": "breath"
+        }
+    },
+    {
+        "id": "0070",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always in front of you but can’t be seen. What am I?",
+            "answer": "tomorrow"
+        }
+    },
+    {
+        "id": "0071",
+        "level": "Advanced",
+        "text": {
+            "question": "I am not alive, but I can die. What am I?",
+            "answer": "shadow"
+        }
+    },
+    {
+        "id": "0072",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always hungry, I must always be fed. The finger I touch will soon turn red. What am I?",
+            "answer": "blaze"
+        }
+    },
+    {
+        "id": "0073",
+        "level": "Advanced",
+        "text": {
+            "question": "I have cities, but no houses. I have forests, but no trees. I have rivers, but no water. What am I?",
+            "answer": "atlas"
+        }
+    },
+    {
+        "id": "0074",
+        "level": "Advanced",
+        "text": {
+            "question": "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
+            "answer": "graphite"
+        }
+    },
+    {
+        "id": "0075",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always in front of you but can never be seen. What am I?",
+            "answer": "horizon"
+        }
+    },
+    {
+        "id": "0076",
+        "level": "Advanced",
+        "text": {
+            "question": "I am not alive, but I can grow. I don’t have lungs, but I need air. What am I?",
+            "answer": "smoke"
+        }
+    },
+    {
+        "id": "0077",
+        "level": "Advanced",
+        "text": {
+            "question": "I am full of holes but still hold water. What am I?",
+            "answer": "net"
+        }
+    },
+    {
+        "id": "0078",
+        "level": "Advanced",
+        "text": {
+            "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
+            "answer": "whistle"
+        }
+    },
+    {
+        "id": "0079",
+        "level": "Advanced",
+        "text": {
+            "question": "I have keys but open no locks. I have space but no room. You can enter, but you can’t go outside. What am I?",
+            "answer": "typewriter"
+        }
+    },
+    {
+        "id": "0080",
+        "level": "Advanced",
+        "text": {
+            "question": "I am light as a feather, yet no one can hold me for long. What am I?",
+            "answer": "bubble"
+        }
+    },
+    {
+        "id": "0081",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always in front of you but can’t be seen. What am I?",
+            "answer": "time"
+        }
+    },
+    {
+        "id": "0082",
+        "level": "Advanced",
+        "text": {
+            "question": "I am not alive, but I can die. What am I?",
+            "answer": "star"
+        }
+    },
+    {
+        "id": "0083",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always hungry, I must always be fed. The finger I touch will soon turn red. What am I?",
+            "answer": "volcano"
+        }
+    },
+    {
+        "id": "0084",
+        "level": "Advanced",
+        "text": {
+            "question": "I have cities, but no houses. I have forests, but no trees. I have rivers, but no water. What am I?",
+            "answer": "globe"
+        }
+    },
+    {
+        "id": "0085",
+        "level": "Advanced",
+        "text": {
+            "question": "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
+            "answer": "charcoal"
+        }
+    },
+    {
+        "id": "0086",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always in front of you but can never be seen. What am I?",
+            "answer": "darkness"
+        }
+    },
+    {
+        "id": "0087",
+        "level": "Advanced",
+        "text": {
+            "question": "I am not alive, but I can grow. I don’t have lungs, but I need air. What am I?",
+            "answer": "cloud"
+        }
+    },
+    {
+        "id": "0088",
+        "level": "Advanced",
+        "text": {
+            "question": "I am full of holes but still hold water. What am I?",
+            "answer": "sieve"
+        }
+    },
+    {
+        "id": "0089",
+        "level": "Advanced",
+        "text": {
+            "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
+            "answer": "kite"
+        }
+    },
+    {
+        "id": "0090",
+        "level": "Advanced",
+        "text": {
+            "question": "I have keys but open no locks. I have space but no room. You can enter, but you can’t go outside. What am I?",
+            "answer": "calculator"
+        }
+    },
+    {
+        "id": "0091",
+        "level": "Advanced",
+        "text": {
+            "question": "I am light as a feather, yet no one can hold me for long. What am I?",
+            "answer": "thought"
+        }
+    },
+    {
+        "id": "0092",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always in front of you but can’t be seen. What am I?",
+            "answer": "wind"
+        }
+    },
+    {
+        "id": "0093",
+        "level": "Advanced",
+        "text": {
+            "question": "I am not alive, but I can die. What am I?",
+            "answer": "candle"
+        }
+    },
+    {
+        "id": "0094",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always hungry, I must always be fed. The finger I touch will soon turn red. What am I?",
+            "answer": "lava"
+        }
+    },
+    {
+        "id": "0095",
+        "level": "Advanced",
+        "text": {
+            "question": "I have cities, but no houses. I have forests, but no trees. I have rivers, but no water. What am I?",
+            "answer": "chart"
+        }
+    },
+    {
+        "id": "0096",
+        "level": "Advanced",
+        "text": {
+            "question": "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
+            "answer": "lead"
+        }
+    },
+    {
+        "id": "0097",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always in front of you but can never be seen. What am I?",
+            "answer": "fate"
+        }
+    },
+    {
+        "id": "0098",
+        "level": "Advanced",
+        "text": {
+            "question": "I am not alive, but I can grow. I don’t have lungs, but I need air. What am I?",
+            "answer": "shadow"
+        }
+    },
+    {
+        "id": "0099",
+        "level": "Advanced",
+        "text": {
+            "question": "I am full of holes but still hold water. What am I?",
+            "answer": "colander"
+        }
+    },
+    {
+        "id": "0100",
+        "level": "Advanced",
+        "text": {
+            "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
+            "answer": "flag"
+        }
+    },
+    {
+        "id": "0101",
+        "level": "Advanced",
+        "text": {
+            "question": "I have keys but open no locks. I have space but no room. You can enter, but you can’t go outside. What am I?",
+            "answer": "organ"
+        }
+    },
+    {
+        "id": "0102",
+        "level": "Advanced",
+        "text": {
+            "question": "I am light as a feather, yet no one can hold me for long. What am I?",
+            "answer": "dream"
+        }
+    },
+    {
+        "id": "0103",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always in front of you but can’t be seen. What am I?",
+            "answer": "silence"
+        }
+    },
+    {
+        "id": "0104",
+        "level": "Advanced",
+        "text": {
+            "question": "I am not alive, but I can die. What am I?",
+            "answer": "moon"
+        }
+    },
+    {
+        "id": "0105",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always hungry, I must always be fed. The finger I touch will soon turn red. What am I?",
+            "answer": "sun"
+        }
+    },
+    {
+        "id": "0106",
+        "level": "Advanced",
+        "text": {
+            "question": "I have cities, but no houses. I have forests, but no trees. I have rivers, but no water. What am I?",
+            "answer": "blueprint"
+        }
+    },
+    {
+        "id": "0107",
+        "level": "Advanced",
+        "text": {
+            "question": "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
+            "answer": "chalk"
+        }
+    },
+    {
+        "id": "0108",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always in front of you but can never be seen. What am I?",
+            "answer": "void"
+        }
+    },
+    {
+        "id": "0109",
+        "level": "Advanced",
+        "text": {
+            "question": "I am not alive, but I can grow. I don’t have lungs, but I need air. What am I?",
+            "answer": "mist"
+        }
+    },
+    {
+        "id": "0110",
+        "level": "Advanced",
+        "text": {
+            "question": "I am full of holes but still hold water. What am I?",
+            "answer": "sponge"
+        }
+    },
+    {
+        "id": "0111",
+        "level": "Advanced",
+        "text": {
+            "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
+            "answer": "song"
+        }
+    },
+    {
+        "id": "0112",
+        "level": "Advanced",
+        "text": {
+            "question": "I have keys but open no locks. I have space but no room. You can enter, but you can’t go outside. What am I?",
+            "answer": "piano"
+        }
+    },
+    {
+        "id": "0113",
+        "level": "Advanced",
+        "text": {
+            "question": "I am light as a feather, yet no one can hold me for long. What am I?",
+            "answer": "smoke"
+        }
+    },
+    {
+        "id": "0114",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always in front of you but can’t be seen. What am I?",
+            "answer": "hope"
+        }
+    },
+    {
+        "id": "0115",
+        "level": "Advanced",
+        "text": {
+            "question": "I am not alive, but I can die. What am I?",
+            "answer": "mirror"
+        }
+    },
+    {
+        "id": "0116",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always hungry, I must always be fed. The finger I touch will soon turn red. What am I?",
+            "answer": "inferno"
+        }
+    },
+    {
+        "id": "0117",
+        "level": "Advanced",
+        "text": {
+            "question": "I have cities, but no houses. I have forests, but no trees. I have rivers, but no water. What am I?",
+            "answer": "diagram"
+        }
+    },
+    {
+        "id": "0118",
+        "level": "Advanced",
+        "text": {
+            "question": "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
+            "answer": "graphite"
+        }
+    },
+    {
+        "id": "0119",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always in front of you but can never be seen. What am I?",
+            "answer": "destiny"
+        }
+    },
+    {
+        "id": "0120",
+        "level": "Advanced",
+        "text": {
+            "question": "I am not alive, but I can grow. I don’t have lungs, but I need air. What am I?",
+            "answer": "fog"
+        }
+    },
+    {
+        "id": "0121",
+        "level": "Advanced",
+        "text": {
+            "question": "I am full of holes but still hold water. What am I?",
+            "answer": "honeycomb"
+        }
+    },
+    {
+        "id": "0122",
+        "level": "Advanced",
+        "text": {
+            "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
+            "answer": "whisper"
+        }
+    },
+    {
+        "id": "0123",
+        "level": "Advanced",
+        "text": {
+            "question": "I have keys but open no locks. I have space but no room. You can enter, but you can’t go outside. What am I?",
+            "answer": "harpsichord"
+        }
+    },
+    {
+        "id": "0124",
+        "level": "Advanced",
+        "text": {
+            "question": "I am light as a feather, yet no one can hold me for long. What am I?",
+            "answer": "shadow"
+        }
+    },
+    {
+        "id": "0125",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always in front of you but can’t be seen. What am I?",
+            "answer": "memory"
+        }
+    },
+    {
+        "id": "0126",
+        "level": "Advanced",
+        "text": {
+            "question": "I am not alive, but I can die. What am I?",
+            "answer": "statue"
+        }
+    },
+    {
+        "id": "0127",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always hungry, I must always be fed. The finger I touch will soon turn red. What am I?",
+            "answer": "ember"
+        }
+    },
+    {
+        "id": "0128",
+        "level": "Advanced",
+        "text": {
+            "question": "I have cities, but no houses. I have forests, but no trees. I have rivers, but no water. What am I?",
+            "answer": "scheme"
+        }
+    },
+    {
+        "id": "0129",
+        "level": "Advanced",
+        "text": {
+            "question": "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
+            "answer": "clay"
+        }
+    },
+    {
+        "id": "0130",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always in front of you but can never be seen. What am I?",
+            "answer": "echo"
+        }
+    },
+    {
+        "id": "0131",
+        "level": "Advanced",
+        "text": {
+            "question": "I am not alive, but I can grow. I don’t have lungs, but I need air. What am I?",
+            "answer": "dew"
+        }
+    },
+    {
+        "id": "0132",
+        "level": "Advanced",
+        "text": {
+            "question": "I am full of holes but still hold water. What am I?",
+            "answer": "coral"
+        }
+    },
+    {
+        "id": "0133",
+        "level": "Advanced",
+        "text": {
+            "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
+            "answer": "breeze"
+        }
+    },
+    {
+        "id": "0134",
+        "level": "Advanced",
+        "text": {
+            "question": "I have keys but open no locks. I have space but no room. You can enter, but you can’t go outside. What am I?",
+            "answer": "synthesizer"
+        }
+    },
+    {
+        "id": "0135",
+        "level": "Advanced",
+        "text": {
+            "question": "I am light as a feather, yet no one can hold me for long. What am I?",
+            "answer": "spark"
+        }
+    },
+    {
+        "id": "0136",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always in front of you but can’t be seen. What am I?",
+            "answer": "aura"
+        }
+    },
+    {
+        "id": "0137",
+        "level": "Advanced",
+        "text": {
+            "question": "I am not alive, but I can die. What am I?",
+            "answer": "ice"
+        }
+    },
+    {
+        "id": "0138",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always hungry, I must always be fed. The finger I touch will soon turn red. What am I?",
+            "answer": "forge"
+        }
+    },
+    {
+        "id": "0139",
+        "level": "Advanced",
+        "text": {
+            "question": "I have cities, but no houses. I have forests, but no trees. I have rivers, but no water. What am I?",
+            "answer": "layout"
+        }
+    },
+    {
+        "id": "0140",
+        "level": "Advanced",
+        "text": {
+            "question": "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
+            "answer": "marble"
+        }
+    },
+    {
+        "id": "0141",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always in front of you but can never be seen. What am I?",
+            "answer": "infinity"
+        }
+    },
+    {
+        "id": "0142",
+        "level": "Advanced",
+        "text": {
+            "question": "I am not alive, but I can grow. I don’t have lungs, but I need air. What am I?",
+            "answer": "vapor"
+        }
+    },
+    {
+        "id": "0143",
+        "level": "Advanced",
+        "text": {
+            "question": "I am full of holes but still hold water. What am I?",
+            "answer": "sponge"
+        }
+    },
+    {
+        "id": "0144",
+        "level": "Advanced",
+        "text": {
+            "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
+            "answer": "storm"
+        }
+    },
+    {
+        "id": "0145",
+        "level": "Advanced",
+        "text": {
+            "question": "I have keys but open no locks. I have space but no room. You can enter, but you can’t go outside. What am I?",
+            "answer": "accordion"
+        }
+    },
+    {
+        "id": "0146",
+        "level": "Advanced",
+        "text": {
+            "question": "I am light as a feather, yet no one can hold me for long. What am I?",
+            "answer": "flame"
+        }
+    },
+    {
+        "id": "0147",
+        "level": "Advanced",
+        "text": {
+            "question": "I am always in front of you but can’t be seen. What am I?",
+            "answer": "eternity"
+        }
+    }
+]
