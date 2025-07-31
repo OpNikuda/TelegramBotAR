@@ -33,6 +33,7 @@ project/
    git clone https://github.com/ваш-username/название-репозитория.git
    cd название-репозитория
    ```
+   
 Установите зависимости:
 
 ```bash
@@ -42,7 +43,6 @@ pip install -r requirements.txt
 Создайте файл config.py и добавьте токен вашего бота:
 
 ```bash
-python
 TOKEN = 'ваш_токен_бота'
 ```
 
