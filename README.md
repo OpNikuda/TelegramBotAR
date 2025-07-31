@@ -25,8 +25,8 @@ project/
 │   ├── config.py           # Конфигурация (токен бота)
 │   ├── master_func.py      # Основные функции и логика
 │   ├── start.py            # Файл инициализации
-│   ├── poetry.lock         # Файл блокировки Poetry
-│   └── pyproject.toml      # Конфигурация Poetry
+│── poetry.lock         # Файл блокировки Poetry
+│── pyproject.toml      # Конфигурация Poetry
 ```
 
 
