@@ -71,7 +71,7 @@ python bot.py
 /audio_deactivate - выключить режим TTS
 
 
-Зависимости:
+# Зависимости:
 ```bash
 Python 3.8+
 ```
