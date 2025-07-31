@@ -44,7 +44,7 @@ project/
 pip install -r requirements.txt
 ```
 
-Создайте файл config.py и добавьте токен вашего бота:
+Перейдите в файл config.py и введите токен вашего бота:
 
 ```bash
 TOKEN = 'ваш_токен_бота'
